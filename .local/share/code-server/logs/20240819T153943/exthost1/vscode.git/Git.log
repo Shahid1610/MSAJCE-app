@@ -72,3 +72,82 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2024-08-19 15:52:49.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
 2024-08-19 15:52:49.494 [warning] No such branch: master.
 2024-08-19 15:52:49.505 [info] > git status -z -uall [10ms]
+2024-08-19 15:52:52.783 [info] > git ls-files --stage -- /root/API/main.py [1ms]
+2024-08-19 15:52:52.788 [info] > git cat-file -s 4a44916159835f9c7c36be78b05a944d8d79eb2e [2ms]
+2024-08-19 15:52:52.915 [info] > git show --textconv :API/main.py [4ms]
+2024-08-19 15:52:58.148 [info] No remotes found in the git config file.
+2024-08-19 15:52:58.150 [info] > git config --get commit.template [8ms]
+2024-08-19 15:52:58.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-08-19 15:52:58.151 [warning] No such branch: master.
+2024-08-19 15:52:58.186 [info] > git status -z -uall [29ms]
+2024-08-19 15:53:03.281 [info] No remotes found in the git config file.
+2024-08-19 15:53:03.283 [info] > git config --get commit.template [8ms]
+2024-08-19 15:53:03.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-08-19 15:53:03.284 [warning] No such branch: master.
+2024-08-19 15:53:03.416 [info] > git status -z -uall [127ms]
+2024-08-19 15:53:08.908 [info] > git ls-files --stage -- /root/API/main.py [2ms]
+2024-08-19 15:53:08.916 [info] > git cat-file -s 4a44916159835f9c7c36be78b05a944d8d79eb2e [2ms]
+2024-08-19 15:53:09.068 [info] > git show --textconv :API/main.py [1ms]
+2024-08-19 15:54:30.841 [info] No remotes found in the git config file.
+2024-08-19 15:54:30.845 [info] > git config --get commit.template [5ms]
+2024-08-19 15:54:30.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 15:54:30.846 [warning] No such branch: master.
+2024-08-19 15:54:30.871 [info] > git status -z -uall [23ms]
+2024-08-19 15:54:31.810 [info] > git check-ignore -v -z --stdin [3ms]
+2024-08-19 15:54:35.899 [info] No remotes found in the git config file.
+2024-08-19 15:54:35.900 [info] > git config --get commit.template [4ms]
+2024-08-19 15:54:35.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-19 15:54:35.901 [warning] No such branch: master.
+2024-08-19 15:54:35.931 [info] > git status -z -uall [27ms]
+2024-08-19 15:55:13.639 [info] No remotes found in the git config file.
+2024-08-19 15:55:13.641 [info] > git config --get commit.template [9ms]
+2024-08-19 15:55:13.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-08-19 15:55:13.641 [warning] No such branch: master.
+2024-08-19 15:55:13.659 [info] > git status -z -uall [14ms]
+2024-08-19 15:55:18.688 [info] No remotes found in the git config file.
+2024-08-19 15:55:18.695 [info] > git config --get commit.template [7ms]
+2024-08-19 15:55:18.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-08-19 15:55:18.696 [warning] No such branch: master.
+2024-08-19 15:55:18.714 [info] > git status -z -uall [12ms]
+2024-08-19 15:55:38.180 [info] > git ls-files --stage -- /root/API/main.py [4ms]
+2024-08-19 15:55:38.186 [info] > git cat-file -s 4a44916159835f9c7c36be78b05a944d8d79eb2e [3ms]
+2024-08-19 15:55:38.336 [info] > git show --textconv :API/main.py [3ms]
+2024-08-19 15:56:43.461 [info] > git config --get commit.template [7ms]
+2024-08-19 15:56:43.461 [info] No remotes found in the git config file.
+2024-08-19 15:56:43.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 15:56:43.486 [info] > git status -z -uall [20ms]
+2024-08-19 15:56:48.506 [info] No remotes found in the git config file.
+2024-08-19 15:56:48.507 [info] > git config --get commit.template [3ms]
+2024-08-19 15:56:48.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-19 15:56:48.536 [info] > git status -z -uall [23ms]
+2024-08-19 15:56:50.204 [info] > git ls-files --stage -- /root/API/main.py [3ms]
+2024-08-19 15:56:50.210 [info] > git cat-file -s 4a44916159835f9c7c36be78b05a944d8d79eb2e [3ms]
+2024-08-19 15:56:50.337 [info] > git show --textconv :API/main.py [2ms]
+2024-08-19 15:56:57.601 [info] No remotes found in the git config file.
+2024-08-19 15:56:57.602 [info] > git config --get commit.template [7ms]
+2024-08-19 15:56:57.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-19 15:56:57.619 [info] > git status -z -uall [10ms]
+2024-08-19 15:57:04.107 [info] > git ls-files --stage -- /root/API/main.py [3ms]
+2024-08-19 15:57:04.114 [info] > git cat-file -s 4a44916159835f9c7c36be78b05a944d8d79eb2e [2ms]
+2024-08-19 15:57:04.266 [info] > git show --textconv :API/main.py [3ms]
+2024-08-19 15:57:19.100 [info] > git config --get commit.template [7ms]
+2024-08-19 15:57:19.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-19 15:57:19.131 [info] > git status -z -uall [24ms]
+2024-08-19 15:57:24.144 [info] > git config --get commit.template [6ms]
+2024-08-19 15:57:24.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-19 15:57:24.245 [info] > git status -z -uall [95ms]
+2024-08-19 15:58:09.550 [info] > git config --get commit.template [8ms]
+2024-08-19 15:58:09.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-19 15:58:09.649 [info] > git status -z -uall [92ms]
+2024-08-19 15:58:14.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-19 15:58:14.668 [info] > git config --get commit.template [9ms]
+2024-08-19 15:58:14.682 [info] > git status -z -uall [11ms]
+2024-08-19 16:00:01.542 [info] > git ls-files --stage -- /root/API/main.py [3ms]
+2024-08-19 16:00:01.549 [info] > git cat-file -s 4a44916159835f9c7c36be78b05a944d8d79eb2e [3ms]
+2024-08-19 16:00:01.688 [info] > git show --textconv :API/main.py [5ms]
+2024-08-19 16:02:27.737 [info] > git config --get commit.template [7ms]
+2024-08-19 16:02:27.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-19 16:02:27.759 [info] > git status -z -uall [16ms]
+2024-08-19 16:02:32.775 [info] > git config --get commit.template [6ms]
+2024-08-19 16:02:32.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-19 16:02:32.792 [info] > git status -z -uall [10ms]

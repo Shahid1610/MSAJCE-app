@@ -10,3 +10,5 @@
 
 2024-08-19 15:46:18.700 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "13"
 
+2024-08-19 15:58:19.656 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "16"
+

@@ -50,3 +50,7 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2024-08-19 15:52:16.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
 2024-08-19 15:52:16.389 [warning] No such branch: master.
 2024-08-19 15:52:16.401 [info] > git status -z -uall [11ms]
+2024-08-19 15:53:16.067 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-19 15:55:15.410 [info] > git show --textconv :API/includes/database/HostelMenuDB.py [3ms]
+2024-08-19 15:55:15.411 [info] > git ls-files --stage -- /root/API/includes/database/HostelMenuDB.py [2ms]
+2024-08-19 15:55:15.413 [info] > git cat-file -s 55b27ce992df0d66b499dd4476d6476d6f5bd89d [0ms]
