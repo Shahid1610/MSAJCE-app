@@ -1,0 +1,67 @@
+2024-08-19 15:40:25.936 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-19 15:40:25.936 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-19 15:40:25.936 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-19 15:40:25.936 [info] Experiment 'pythonTestAdapter' is active
+2024-08-19 15:40:25.944 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/root/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586747
+	at /root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/.pixi/envs'
+}
+2024-08-19 15:40:25.944 [error] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
+2024-08-19 15:40:26.194 [info] Default formatter is set to null for workspace /root/
+2024-08-19 15:40:26.197 [info] Starting Environment refresh
+2024-08-19 15:40:26.197 [info] Searching for interpreters in posix paths locator
+2024-08-19 15:40:26.200 [info] Searching for pyenv environments
+2024-08-19 15:40:26.200 [info] Searching for conda environments
+2024-08-19 15:40:26.200 [info] Searching for global virtual environments
+2024-08-19 15:40:26.200 [info] Searching for custom virtual environments
+2024-08-19 15:40:26.216 [info] pyenv is not installed
+2024-08-19 15:40:26.216 [info] Finished searching for pyenv environments: 18 milliseconds
+2024-08-19 15:40:26.216 [info] Finished searching for custom virtual envs: 18 milliseconds
+2024-08-19 15:40:26.219 [info] > conda info --json
+2024-08-19 15:40:26.220 [info] > pixi --version
+2024-08-19 15:40:26.220 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-19 15:40:26.222 [info] > hatch env show --json
+2024-08-19 15:40:26.222 [info] cwd: .
+2024-08-19 15:40:26.224 [info] > pyenv which python
+2024-08-19 15:40:26.224 [info] cwd: .
+2024-08-19 15:40:26.224 [info] Finished searching for global virtual envs: 26 milliseconds
+2024-08-19 15:40:26.226 [info] Found: /bin/python3 --> /bin/python3.11
+2024-08-19 15:40:26.226 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-08-19 15:40:26.248 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-08-19 15:40:26.249 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-08-19 15:40:26.349 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.12
+2024-08-19 15:40:26.349 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.12
+2024-08-19 15:40:26.349 [info] Found: /usr/local/bin/python3.12 --> /usr/local/bin/python3.12
+2024-08-19 15:40:26.547 [info] > /bin/python3 -I ..local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ..local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-19 15:40:27.050 [info] Finished searching for interpreters in posix paths locator: 847 milliseconds
+2024-08-19 15:40:27.050 [info] > /usr/bin/python3 -I ..local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ..local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-19 15:40:27.249 [info] > /usr/local/bin/python -I ..local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ..local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-19 15:40:27.249 [info] Environments refresh paths discovered (event): 1052 milliseconds
+2024-08-19 15:40:27.249 [info] Environments refresh paths discovered: 1052 milliseconds
+2024-08-19 15:40:27.373 [info] Environments refresh finished (event): 1176 milliseconds
+2024-08-19 15:40:27.378 [info] Environment refresh took 1182 milliseconds
+2024-08-19 15:40:27.379 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-19 15:40:27.380 [info] Python interpreter path: /usr/local/bin/python
+2024-08-19 15:40:28.746 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-08-19 15:40:28.747 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-19 15:40:28.979 [info] Starting Jedi language server for root.
+2024-08-19 15:40:29.651 [info] Shell integration status changed, can confirm it's working.
+2024-08-19 15:40:29.652 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python

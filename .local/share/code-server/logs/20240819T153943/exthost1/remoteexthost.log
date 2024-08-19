@@ -1,0 +1,26 @@
+2024-08-19 15:40:22.648 [info] Extension host with pid 969 started
+2024-08-19 15:40:22.944 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/2f023867/vscode.lock': Lock acquired.
+2024-08-19 15:40:23.248 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-19 15:40:23.447 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-08-19 15:40:25.609 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-19 15:40:25.610 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-19 15:40:25.949 [error] Error: spawn /root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-19 15:40:26.202 [info] Eager extensions activated
+2024-08-19 15:40:26.202 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 15:40:26.203 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-19 15:40:30.984 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-19 15:40:39.552 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-08-19 15:40:39.552 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-08-19 15:40:39.552 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-08-19 15:40:51.650 [info] ExtensionService#_doActivateExtension mikoz.black-py, startup: false, activationEvent: 'onLanguage:python'
+2024-08-19 15:40:51.743 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-08-19 15:51:41.766 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295
+2024-08-19 15:51:42.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295
+2024-08-19 15:52:02.868 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295
+2024-08-19 15:52:07.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295
+2024-08-19 15:52:39.426 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295
+2024-08-19 15:52:44.486 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295
+2024-08-19 15:52:49.553 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3295

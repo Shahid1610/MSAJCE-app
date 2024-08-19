@@ -1,0 +1,16 @@
+2024-08-15 13:59:05.173 [info] Extension host with pid 2247 started
+2024-08-15 13:59:05.177 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-8628ce5/vscode.lock': Lock acquired.
+2024-08-15 13:59:05.596 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-15 13:59:05.779 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-15 13:59:06.083 [info] Eager extensions activated
+2024-08-15 13:59:06.084 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-15 13:59:06.088 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-15 13:59:07.272 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-15 13:59:08.078 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'workspaceContains:mspythonconfig.json,pyproject.toml,Pipfile,setup.py,requirements.txt,manage.py,app.py,.venv,.conda'
+2024-08-15 13:59:08.687 [error] Error: spawn /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-15 14:10:37.372 [info] Extension host terminating: received terminate message from renderer
+2024-08-15 14:10:37.373 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/-8628ce5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-15 14:10:37.412 [info] Extension host with pid 2247 exiting with code 0

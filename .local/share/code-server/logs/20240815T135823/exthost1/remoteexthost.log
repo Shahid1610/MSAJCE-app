@@ -1,0 +1,17 @@
+2024-08-15 13:58:49.267 [info] Extension host with pid 964 started
+2024-08-15 13:58:49.275 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock': Lock acquired.
+2024-08-15 13:58:50.373 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-15 13:58:50.587 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-15 13:58:50.588 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-15 13:58:52.968 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:*.py', root cause: mikoz.black-py
+2024-08-15 13:58:53.478 [error] Error: spawn /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-15 13:58:53.649 [info] ExtensionService#_doActivateExtension mikoz.black-py, startup: true, activationEvent: 'workspaceContains:*.py'
+2024-08-15 13:58:53.876 [info] Eager extensions activated
+2024-08-15 13:58:53.877 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-15 13:58:53.879 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-15 13:58:55.530 [info] Extension host terminating: received terminate message from renderer
+2024-08-15 13:58:55.530 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-15 13:58:55.539 [info] Extension host with pid 964 exiting with code 0

@@ -1,0 +1,67 @@
+2024-08-03 08:52:12.507 [info] 
+
+
+
+
+2024-08-03 08:52:12.545 [info] Extension host agent started.
+2024-08-03 08:52:12.576 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+2024-08-03 08:52:12.582 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+2024-08-03 08:53:02.030 [info] [192.168.10.1][1cbb1a86][ManagementConnection] New connection established.
+2024-08-03 08:53:08.751 [info] [192.168.10.1][63034362][ExtensionHostConnection] New connection established.
+2024-08-03 08:53:08.771 [info] [192.168.10.1][63034362][ExtensionHostConnection] <957> Launched Extension Host Process.
+2024-08-03 08:57:32.242 [info] [192.168.10.1][1cbb1a86][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-03 08:57:32.296 [info] [192.168.10.1][63034362][ExtensionHostConnection] <957> Extension Host Process exited with code: 0, signal: null.
+2024-08-03 08:57:38.637 [info] [192.168.10.1][31812e40][ManagementConnection] New connection established.
+2024-08-03 08:57:45.462 [info] [192.168.10.1][012c9c63][ExtensionHostConnection] New connection established.
+2024-08-03 08:57:45.475 [info] [192.168.10.1][012c9c63][ExtensionHostConnection] <3438> Launched Extension Host Process.
+2024-08-03 09:16:19.636 [info] [192.168.10.1][31812e40][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-03 09:16:19.659 [info] [192.168.10.1][012c9c63][ExtensionHostConnection] <3438> Extension Host Process exited with code: 0, signal: null.
+2024-08-03 09:16:28.018 [info] [192.168.10.1][c9411c49][ManagementConnection] New connection established.
+2024-08-03 09:16:34.365 [info] [192.168.10.1][c9427732][ExtensionHostConnection] New connection established.
+2024-08-03 09:16:34.463 [info] [192.168.10.1][c9427732][ExtensionHostConnection] <8011> Launched Extension Host Process.
+2024-08-03 09:30:38.146 [info] [192.168.10.1][c9427732][ExtensionHostConnection] The client has reconnected.
+2024-08-03 10:01:45.298 [info] [192.168.10.1][c9427732][ExtensionHostConnection] The client has reconnected.
+2024-08-03 11:48:26.535 [info] [192.168.10.1][c9411c49][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-03 11:48:26.576 [info] [192.168.10.1][c9427732][ExtensionHostConnection] <8011> Extension Host Process exited with code: 0, signal: null.
+2024-08-03 12:15:20.421 [info] [192.168.10.1][dcafdd4f][ManagementConnection] New connection established.
+2024-08-03 12:15:24.848 [info] [192.168.10.1][f2a3f91c][ExtensionHostConnection] New connection established.
+2024-08-03 12:15:24.941 [info] [192.168.10.1][f2a3f91c][ExtensionHostConnection] <39023> Launched Extension Host Process.
+2024-08-03 13:07:07.988 [info] [192.168.10.1][f2a3f91c][ExtensionHostConnection] The client has reconnected.
+2024-08-03 13:07:09.387 [info] [192.168.10.1][dcafdd4f][ManagementConnection] The client has reconnected.
+2024-08-03 13:50:20.535 [info] [192.168.10.1][044ded91][ManagementConnection] New connection established.
+2024-08-03 13:50:27.058 [info] [192.168.10.1][3d49991c][ExtensionHostConnection] New connection established.
+2024-08-03 13:50:27.069 [info] [192.168.10.1][3d49991c][ExtensionHostConnection] <62569> Launched Extension Host Process.
+2024-08-03 13:55:20.800 [info] [192.168.10.1][f2a3f91c][ExtensionHostConnection] <39023> Extension Host Process exited with code: 0, signal: null.
+2024-08-03 15:08:33.442 [info] [192.168.10.1][044ded91][ManagementConnection] The client has reconnected.
+2024-08-03 15:08:38.745 [info] [192.168.10.1][3d49991c][ExtensionHostConnection] The client has reconnected.
+2024-08-03 15:18:34.994 [info] Getting Manifest... mikoz.black-py
+2024-08-03 15:18:37.216 [info] Installing extension: mikoz.black-py file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-03 15:18:37.980 [info] Getting Manifest... ms-python.python
+2024-08-03 15:18:41.501 [info] Getting Manifest... ms-python.debugpy
+2024-08-03 15:18:42.341 [info] Installing extension: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-03 15:18:42.341 [info] Installing extension: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-03 15:18:44.223 [info] Extracted extension to file:///root/.local/share/code-server/extensions/mikoz.black-py-1.0.3-universal: mikoz.black-py
+2024-08-03 15:18:44.225 [info] Renamed to /root/.local/share/code-server/extensions/mikoz.black-py-1.0.3-universal
+2024-08-03 15:18:48.479 [info] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+2024-08-03 15:18:48.482 [info] Renamed to /root/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+2024-08-03 15:18:57.488 [info] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal: ms-python.python
+2024-08-03 15:18:57.492 [info] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal
+2024-08-03 15:18:57.771 [info] Extension installed successfully: mikoz.black-py file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-03 15:18:57.771 [info] Extension installed successfully: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-03 15:18:57.771 [info] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-03 17:14:01.094 [info] [192.168.10.1][3d49991c][ExtensionHostConnection] The client has reconnected.
+2024-08-03 17:14:02.645 [info] [192.168.10.1][044ded91][ManagementConnection] The client has reconnected.
+2024-08-03 19:27:15.019 [info] [192.168.10.1][044ded91][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-03 19:27:15.068 [info] [192.168.10.1][3d49991c][ExtensionHostConnection] <62569> Extension Host Process exited with code: 0, signal: null.
+2024-08-08 11:32:45.160 [info] [192.168.10.1][ddcd0321][ManagementConnection] New connection established.
+2024-08-08 11:32:48.565 [info] [192.168.10.1][282f5672][ExtensionHostConnection] New connection established.
+2024-08-08 11:32:48.572 [info] [192.168.10.1][282f5672][ExtensionHostConnection] <134425> Launched Extension Host Process.
+2024-08-08 11:33:03.148 [info] Getting Manifest... ms-python.python
+2024-08-08 11:33:06.567 [info] Installing extension: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+2024-08-08 11:33:12.620 [info] [192.168.10.1][ddcd0321][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-08 11:33:12.749 [info] [192.168.10.1][282f5672][ExtensionHostConnection] <134425> Extension Host Process exited with code: 0, signal: null.
+2024-08-08 11:33:15.323 [info] [192.168.10.1][be7d05e9][ManagementConnection] New connection established.
+2024-08-08 11:33:25.966 [info] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal: ms-python.python
+2024-08-08 11:33:25.972 [info] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal
+2024-08-08 11:33:26.049 [info] Marked extension as uninstalled ms-python.python-2024.12.1-universal
+2024-08-08 11:33:26.159 [info] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json

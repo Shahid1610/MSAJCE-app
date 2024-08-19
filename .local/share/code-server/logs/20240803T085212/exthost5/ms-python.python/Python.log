@@ -1,0 +1,132 @@
+2024-08-03 15:19:02.220 [info] Experiment 'pythonaacf' is active
+2024-08-03 15:19:02.220 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-03 15:19:02.220 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-03 15:19:02.220 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-08-03 15:19:02.220 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-03 15:19:02.220 [info] Experiment 'pythonTestAdapter' is active
+2024-08-03 15:19:02.220 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/root/API/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:586747
+	at /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/API/.pixi/envs'
+}
+2024-08-03 15:19:02.220 [error] Dir "/root/API/.pixi/envs" is not watchable (directory does not exist)
+2024-08-03 15:19:02.400 [info] Default formatter is set to null for workspace /root/API
+2024-08-03 15:19:02.404 [info] Starting Environment refresh
+2024-08-03 15:19:02.404 [info] Searching for interpreters in posix paths locator
+2024-08-03 15:19:02.407 [info] Searching for pyenv environments
+2024-08-03 15:19:02.407 [info] Searching for conda environments
+2024-08-03 15:19:02.407 [info] Searching for global virtual environments
+2024-08-03 15:19:02.407 [info] Searching for custom virtual environments
+2024-08-03 15:19:02.449 [info] pyenv is not installed
+2024-08-03 15:19:02.449 [info] Finished searching for pyenv environments: 44 milliseconds
+2024-08-03 15:19:02.450 [info] Finished searching for custom virtual envs: 45 milliseconds
+2024-08-03 15:19:02.452 [info] > conda info --json
+2024-08-03 15:19:02.454 [info] > pixi --version
+2024-08-03 15:19:02.454 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-03 15:19:02.455 [info] > hatch env show --json
+2024-08-03 15:19:02.455 [info] cwd: .
+2024-08-03 15:19:02.457 [info] > pyenv which python
+2024-08-03 15:19:02.457 [info] cwd: .
+2024-08-03 15:19:02.457 [info] Finished searching for global virtual envs: 52 milliseconds
+2024-08-03 15:19:02.460 [info] Found: /bin/python3 --> /bin/python3.11
+2024-08-03 15:19:02.460 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-08-03 15:19:02.467 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-08-03 15:19:02.467 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-08-03 15:19:02.470 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.12
+2024-08-03 15:19:02.470 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.12
+2024-08-03 15:19:02.471 [info] Found: /usr/local/bin/python3.12 --> /usr/local/bin/python3.12
+2024-08-03 15:19:02.480 [info] > /bin/python3 -I ~/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/interpreterInfo.py
+2024-08-03 15:19:02.545 [info] Finished searching for interpreters in posix paths locator: 137 milliseconds
+2024-08-03 15:19:02.545 [info] > /usr/bin/python3 -I ~/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/interpreterInfo.py
+2024-08-03 15:19:02.547 [info] Environments refresh paths discovered (event): 144 milliseconds
+2024-08-03 15:19:02.547 [info] Environments refresh paths discovered: 144 milliseconds
+2024-08-03 15:19:02.560 [info] > /usr/local/bin/python -I ~/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/interpreterInfo.py
+2024-08-03 15:19:02.579 [info] Environments refresh finished (event): 176 milliseconds
+2024-08-03 15:19:02.584 [info] Environment refresh took 180 milliseconds
+2024-08-03 15:19:02.585 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-03 15:19:02.586 [info] Python interpreter path: /usr/local/bin/python
+2024-08-03 15:19:04.362 [info] Starting Jedi language server for API.
+2024-08-03 15:19:04.606 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-08-03 15:19:04.610 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-03 15:19:05.687 [info] Shell integration status changed, can confirm it's working.
+2024-08-03 15:19:05.688 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-03 15:19:07.504 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 15:19:10.855 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 15:19:19.221 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 15:19:21.910 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 15:19:24.850 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 15:19:26.954 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 15:19:43.347 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:19:50.726 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:19:53.667 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:20:08.319 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:20:37.237 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:21:14.427 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:21:20.737 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:22:09.477 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:22:11.659 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:22:20.419 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:22:51.551 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:22:54.148 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:22:58.206 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:23:00.863 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:23:07.223 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:23:09.807 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:23:12.853 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:23:14.851 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:23:20.919 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:26:16.898 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:26:22.318 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:26:25.257 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:26:29.144 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:26:33.501 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:26:37.102 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:29:40.687 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:29:42.682 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:29:45.997 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:30:03.828 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:30:24.827 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:30:28.332 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:30:36.143 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:30:38.179 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 15:30:56.507 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:30:58.489 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:31:01.985 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 15:31:07.160 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 16:04:26.304 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:01.068 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:03.124 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:07.557 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:10.981 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:14.080 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:18.206 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:06:22.435 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/HostelMenuDB.py
+2024-08-03 16:18:11.496 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CantineMenuDB.py
+2024-08-03 16:18:25.701 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 16:18:48.109 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 16:18:50.298 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 16:18:57.352 [info] Discover tests for workspace name: API - uri: /root/API/includes/database/CanteenMenuDB.py
+2024-08-03 16:19:16.573 [info] Discover tests for workspace name: API - uri: /root/API/includes/Schemas.py
+2024-08-03 16:19:18.884 [info] Discover tests for workspace name: API - uri: /root/API/includes/Schemas.py
+2024-08-03 16:19:50.835 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 16:19:53.197 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 18:14:08.554 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 18:14:24.364 [info] Discover tests for workspace name: API - uri: /root/API/main.py
+2024-08-03 18:14:29.557 [info] Discover tests for workspace name: API - uri: /root/API/main.py

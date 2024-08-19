@@ -1,0 +1,49 @@
+2024-08-15 13:59:08.895 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-15 13:59:08.895 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-15 13:59:08.895 [info] Experiment 'pythonSurveyNotification' is active
+2024-08-15 13:59:08.895 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-15 13:59:08.895 [info] Experiment 'pythonTestAdapter' is active
+2024-08-15 13:59:08.895 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/root/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal/out/client/extension.js:2:586747
+	at /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/.pixi/envs'
+}
+2024-08-15 13:59:08.895 [error] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
+2024-08-15 13:59:08.895 [info] Default formatter is set to null for workspace /root/
+2024-08-15 13:59:08.895 [info] Starting Environment refresh
+2024-08-15 13:59:08.895 [info] Starting Environment refresh
+2024-08-15 13:59:08.895 [info] > pixi --version
+2024-08-15 13:59:08.895 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-15 13:59:08.895 [info] > hatch env show --json
+2024-08-15 13:59:08.895 [info] cwd: .
+2024-08-15 13:59:08.896 [info] Environments refresh finished (event): 12 milliseconds
+2024-08-15 13:59:08.896 [info] Environments refresh paths discovered: 12 milliseconds
+2024-08-15 13:59:08.896 [info] Environments refresh finished (event): 12 milliseconds
+2024-08-15 13:59:08.896 [info] Environments refresh paths discovered: 12 milliseconds
+2024-08-15 13:59:08.897 [info] Environment refresh took 14 milliseconds
+2024-08-15 13:59:08.897 [info] Environment refresh took 13 milliseconds
+2024-08-15 13:59:08.967 [info] > pyenv which python
+2024-08-15 13:59:08.967 [info] cwd: .
+2024-08-15 13:59:08.985 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-15 13:59:08.990 [info] Python interpreter path: /usr/local/bin/python
+2024-08-15 13:59:10.071 [info] Shell integration status changed, can confirm it's working.
+2024-08-15 13:59:10.072 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-15 13:59:10.570 [warning] could not find a pixi interpreter for the interpreter at /usr/local/bin/python
+2024-08-15 13:59:11.006 [info] Starting Jedi language server for root.
+2024-08-15 13:59:20.922 [info] Discover tests for workspace name: root - uri: /root/.local/share/code-server/extensions/.f3c2149f-b568-401a-8ac6-a40a5ffbe758/python_files/pyproject.toml

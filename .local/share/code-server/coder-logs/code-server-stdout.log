@@ -1,0 +1,181 @@
+[2024-08-03T08:51:51.661Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-03T08:51:51.662Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-03T08:51:51.667Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-03T08:51:51.667Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-03T08:51:51.667Z] info    - Authentication is enabled
+[2024-08-03T08:51:51.667Z] info      - Using password from $PASSWORD
+[2024-08-03T08:51:51.667Z] info    - Not serving HTTPS
+[2024-08-03T08:51:51.668Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[08:52:12] 
+
+
+
+
+[08:52:12] Extension host agent started.
+[08:52:12] Started initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+[08:52:12] Completed initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+[08:53:02] [192.168.10.1][1cbb1a86][ManagementConnection] New connection established.
+[08:53:08] [192.168.10.1][63034362][ExtensionHostConnection] New connection established.
+[08:53:08] [192.168.10.1][63034362][ExtensionHostConnection] <957> Launched Extension Host Process.
+[08:57:32] [192.168.10.1][1cbb1a86][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:57:32] [192.168.10.1][63034362][ExtensionHostConnection] <957> Extension Host Process exited with code: 0, signal: null.
+[08:57:38] [192.168.10.1][31812e40][ManagementConnection] New connection established.
+[08:57:45] [192.168.10.1][012c9c63][ExtensionHostConnection] New connection established.
+[08:57:45] [192.168.10.1][012c9c63][ExtensionHostConnection] <3438> Launched Extension Host Process.
+[09:16:19] [192.168.10.1][31812e40][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:16:19] [192.168.10.1][012c9c63][ExtensionHostConnection] <3438> Extension Host Process exited with code: 0, signal: null.
+[09:16:28] [192.168.10.1][c9411c49][ManagementConnection] New connection established.
+[09:16:34] [192.168.10.1][c9427732][ExtensionHostConnection] New connection established.
+[09:16:34] [192.168.10.1][c9427732][ExtensionHostConnection] <8011> Launched Extension Host Process.
+[09:30:38] [192.168.10.1][c9427732][ExtensionHostConnection] The client has reconnected.
+[10:01:45] [192.168.10.1][c9427732][ExtensionHostConnection] The client has reconnected.
+[11:48:26] [192.168.10.1][c9411c49][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:48:26] [192.168.10.1][c9427732][ExtensionHostConnection] <8011> Extension Host Process exited with code: 0, signal: null.
+[12:15:20] [192.168.10.1][dcafdd4f][ManagementConnection] New connection established.
+[12:15:24] [192.168.10.1][f2a3f91c][ExtensionHostConnection] New connection established.
+[12:15:24] [192.168.10.1][f2a3f91c][ExtensionHostConnection] <39023> Launched Extension Host Process.
+[13:07:07] [192.168.10.1][f2a3f91c][ExtensionHostConnection] The client has reconnected.
+[13:07:09] [192.168.10.1][dcafdd4f][ManagementConnection] The client has reconnected.
+[13:50:20] [192.168.10.1][044ded91][ManagementConnection] New connection established.
+[13:50:27] [192.168.10.1][3d49991c][ExtensionHostConnection] New connection established.
+[13:50:27] [192.168.10.1][3d49991c][ExtensionHostConnection] <62569> Launched Extension Host Process.
+[13:55:20] [192.168.10.1][f2a3f91c][ExtensionHostConnection] <39023> Extension Host Process exited with code: 0, signal: null.
+[15:08:33] [192.168.10.1][044ded91][ManagementConnection] The client has reconnected.
+[15:08:38] [192.168.10.1][3d49991c][ExtensionHostConnection] The client has reconnected.
+[15:18:34] Getting Manifest... mikoz.black-py
+[15:18:37] Installing extension: mikoz.black-py file:///root/.local/share/code-server/extensions/extensions.json
+[15:18:37] Getting Manifest... ms-python.python
+[15:18:41] Getting Manifest... ms-python.debugpy
+[15:18:42] Installing extension: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[15:18:42] Installing extension: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
+[15:18:44] Extracted extension to file:///root/.local/share/code-server/extensions/mikoz.black-py-1.0.3-universal: mikoz.black-py
+[15:18:44] Renamed to /root/.local/share/code-server/extensions/mikoz.black-py-1.0.3-universal
+[15:18:48] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+[15:18:48] Renamed to /root/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+[15:18:57] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal: ms-python.python
+[15:18:57] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal
+[15:18:57] Extension installed successfully: mikoz.black-py file:///root/.local/share/code-server/extensions/extensions.json
+[15:18:57] Extension installed successfully: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
+[15:18:57] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[17:14:01] [192.168.10.1][3d49991c][ExtensionHostConnection] The client has reconnected.
+[17:14:02] [192.168.10.1][044ded91][ManagementConnection] The client has reconnected.
+[19:27:15] [192.168.10.1][044ded91][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:27:15] [192.168.10.1][3d49991c][ExtensionHostConnection] <62569> Extension Host Process exited with code: 0, signal: null.
+[11:32:45] [192.168.10.1][ddcd0321][ManagementConnection] New connection established.
+[11:32:48] [192.168.10.1][282f5672][ExtensionHostConnection] New connection established.
+[11:32:48] [192.168.10.1][282f5672][ExtensionHostConnection] <134425> Launched Extension Host Process.
+[11:33:03] Getting Manifest... ms-python.python
+[11:33:06] Installing extension: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[11:33:12] [192.168.10.1][ddcd0321][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:33:12] [192.168.10.1][282f5672][ExtensionHostConnection] <134425> Extension Host Process exited with code: 0, signal: null.
+[11:33:15] [192.168.10.1][be7d05e9][ManagementConnection] New connection established.
+[11:33:25] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal: ms-python.python
+[11:33:25] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal
+[11:33:26] Marked extension as uninstalled ms-python.python-2024.12.1-universal
+[11:33:26] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[2024-08-08T12:07:10.891Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-08T12:07:10.892Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-08T12:07:10.923Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-08T12:07:10.928Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-08T12:07:10.928Z] info    - Authentication is enabled
+[2024-08-08T12:07:10.928Z] info      - Using password from $PASSWORD
+[2024-08-08T12:07:10.928Z] info    - Not serving HTTPS
+[2024-08-08T12:07:10.928Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[2024-08-11T16:44:07.161Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-11T16:44:07.164Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-11T16:44:07.175Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-11T16:44:07.175Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-11T16:44:07.175Z] info    - Authentication is enabled
+[2024-08-11T16:44:07.176Z] info      - Using password from $PASSWORD
+[2024-08-11T16:44:07.176Z] info    - Not serving HTTPS
+[2024-08-11T16:44:07.176Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[2024-08-12T02:13:07.969Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-12T02:13:07.978Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-12T02:13:08.016Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-12T02:13:08.016Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-12T02:13:08.016Z] info    - Authentication is enabled
+[2024-08-12T02:13:08.016Z] info      - Using password from $PASSWORD
+[2024-08-12T02:13:08.016Z] info    - Not serving HTTPS
+[2024-08-12T02:13:08.016Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[2024-08-13T14:34:56.693Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-13T14:34:56.696Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-13T14:34:56.716Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-13T14:34:56.716Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-13T14:34:56.716Z] info    - Authentication is enabled
+[2024-08-13T14:34:56.716Z] info      - Using password from $PASSWORD
+[2024-08-13T14:34:56.717Z] info    - Not serving HTTPS
+[2024-08-13T14:34:56.717Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[2024-08-13T17:11:40.761Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-13T17:11:40.762Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-13T17:11:40.776Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-13T17:11:40.776Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-13T17:11:40.776Z] info    - Authentication is enabled
+[2024-08-13T17:11:40.776Z] info      - Using password from $PASSWORD
+[2024-08-13T17:11:40.777Z] info    - Not serving HTTPS
+[2024-08-13T17:11:40.777Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[2024-08-14T04:56:50.830Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-14T04:56:50.831Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-14T04:56:50.868Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-14T04:56:50.868Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-14T04:56:50.868Z] info    - Authentication is enabled
+[2024-08-14T04:56:50.868Z] info      - Using password from $PASSWORD
+[2024-08-14T04:56:50.868Z] info    - Not serving HTTPS
+[2024-08-14T04:56:50.868Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[13:58:23] 
+
+
+
+
+[13:58:23] Extension host agent started.
+[13:58:24] Deleted uninstalled extension from disk ms-python.python /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal
+[13:58:37] [192.168.10.1][a5b97529][ManagementConnection] New connection established.
+[13:58:42] [192.168.10.1][ad81dcb5][ExtensionHostConnection] New connection established.
+[13:58:42] [192.168.10.1][ad81dcb5][ExtensionHostConnection] <964> Launched Extension Host Process.
+[13:58:55] [192.168.10.1][a5b97529][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:58:55] [192.168.10.1][ad81dcb5][ExtensionHostConnection] <964> Extension Host Process exited with code: 0, signal: null.
+[13:58:58] [192.168.10.1][9a12c910][ManagementConnection] New connection established.
+[13:59:01] [192.168.10.1][81e503f0][ExtensionHostConnection] New connection established.
+[13:59:01] [192.168.10.1][81e503f0][ExtensionHostConnection] <2247> Launched Extension Host Process.
+[13:59:09] Getting Manifest... ms-python.python
+[13:59:11] Installing extension: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[13:59:20] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal: ms-python.python
+[13:59:20] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal
+[13:59:20] Marked extension as uninstalled ms-python.python-2024.12.2-universal
+[13:59:20] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[14:10:37] [192.168.10.1][9a12c910][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:10:37] [192.168.10.1][81e503f0][ExtensionHostConnection] <2247> Extension Host Process exited with code: 0, signal: null.
+[2024-08-18T09:36:57.618Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-18T09:36:57.619Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-18T09:36:57.630Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-18T09:36:57.630Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-18T09:36:57.630Z] info    - Authentication is enabled
+[2024-08-18T09:36:57.630Z] info      - Using password from $PASSWORD
+[2024-08-18T09:36:57.630Z] info    - Not serving HTTPS
+[2024-08-18T09:36:57.630Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[15:38:32] 
+
+
+
+
+[15:38:32] Extension host agent started.
+[15:38:32] Deleted uninstalled extension from disk ms-python.python /root/.local/share/code-server/extensions/ms-python.python-2024.12.2-universal
+[2024-08-19T15:39:09.801Z] info  code-server 4.90.3 26c763485b9101fcae2ce56fc0903f0e2d48abe3
+[2024-08-19T15:39:09.802Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-08-19T15:39:09.807Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-08-19T15:39:09.807Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-08-19T15:39:09.807Z] info    - Authentication is enabled
+[2024-08-19T15:39:09.807Z] info      - Using password from $PASSWORD
+[2024-08-19T15:39:09.807Z] info    - Not serving HTTPS
+[2024-08-19T15:39:09.807Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[15:39:43] 
+
+
+
+
+[15:39:43] Extension host agent started.
+[15:40:11] [192.168.10.1][91725d6b][ManagementConnection] New connection established.
+[15:40:15] [192.168.10.1][f272220e][ExtensionHostConnection] New connection established.
+[15:40:15] [192.168.10.1][f272220e][ExtensionHostConnection] <969> Launched Extension Host Process.
+[15:41:37] [192.168.10.1][acc8e469][ManagementConnection] New connection established.
+[15:41:41] [192.168.10.1][b7ef0b54][ExtensionHostConnection] New connection established.
+[15:41:41] [192.168.10.1][b7ef0b54][ExtensionHostConnection] <3571> Launched Extension Host Process.

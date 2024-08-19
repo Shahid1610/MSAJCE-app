@@ -1,0 +1,52 @@
+2024-08-19 15:41:54.347 [info] Log level: Info
+2024-08-19 15:41:54.347 [info] Validating found git in: "git"
+2024-08-19 15:41:54.347 [info] Using git "2.39.2" from "git"
+2024-08-19 15:41:54.347 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 15:41:54.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:41:54.347 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 15:41:54.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:41:54.347 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 15:41:54.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:41:54.347 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 15:41:54.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:41:54.347 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 15:41:54.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:41:54.347 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 15:41:54.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:41:55.246 [info] > git rev-parse --show-toplevel [93ms]
+2024-08-19 15:41:55.246 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:42:13.551 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-19 15:42:13.551 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:42:30.945 [info] > git rev-parse --show-toplevel [90ms]
+2024-08-19 15:42:30.945 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:42:37.129 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-19 15:42:37.129 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:42:42.478 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-19 15:42:42.478 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:42:49.373 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-19 15:42:49.373 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-19 15:52:15.914 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-19 15:52:15.925 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-19 15:52:15.946 [info] Open repository: /root
+2024-08-19 15:52:15.951 [info] No remotes found in the git config file.
+2024-08-19 15:52:15.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-19 15:52:15.951 [warning] No such branch: master.
+2024-08-19 15:52:15.952 [info] > git config --get commit.template [2ms]
+2024-08-19 15:52:15.967 [info] > git status -z -uall [14ms]
+2024-08-19 15:52:16.388 [info] No remotes found in the git config file.
+2024-08-19 15:52:16.389 [info] > git config --get commit.template [2ms]
+2024-08-19 15:52:16.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-19 15:52:16.389 [warning] No such branch: master.
+2024-08-19 15:52:16.401 [info] > git status -z -uall [11ms]

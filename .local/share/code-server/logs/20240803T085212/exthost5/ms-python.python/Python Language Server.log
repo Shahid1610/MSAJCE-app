@@ -1,0 +1,142 @@
+2024-08-03 15:19:08.553 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "10"
+
+2024-08-03 15:19:08.559 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "11"
+
+2024-08-03 15:19:08.566 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "15"
+
+2024-08-03 15:19:08.566 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "13"
+
+2024-08-03 15:19:08.567 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "12"
+
+2024-08-03 15:19:08.579 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "14"
+
+2024-08-03 15:19:08.584 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "20"
+
+2024-08-03 15:19:11.200 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "21"
+
+2024-08-03 15:19:28.653 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "68"
+
+2024-08-03 15:19:43.752 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "88"
+
+2024-08-03 15:19:45.291 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "90"
+
+2024-08-03 15:20:28.765 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "147"
+
+2024-08-03 15:21:20.775 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "238"
+
+2024-08-03 15:21:30.240 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "247"
+
+2024-08-03 15:21:32.734 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "249"
+
+2024-08-03 15:22:52.848 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "371"
+
+2024-08-03 15:22:53.250 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "373"
+
+2024-08-03 15:24:17.840 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "456"
+
+2024-08-03 15:24:20.821 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "461"
+
+2024-08-03 15:24:21.005 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "462"
+
+2024-08-03 15:25:48.196 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "473"
+
+2024-08-03 15:29:09.190 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "592"
+
+2024-08-03 15:29:28.526 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "606"
+
+2024-08-03 15:29:46.005 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "644"
+
+2024-08-03 15:30:00.498 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "656"
+
+2024-08-03 15:30:04.884 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "667"
+
+2024-08-03 15:30:26.367 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "707"
+
+2024-08-03 15:30:58.076 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "764"
+
+2024-08-03 15:32:12.109 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "793"
+
+2024-08-03 15:32:25.184 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "804"
+
+2024-08-03 15:35:55.818 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "825"
+
+2024-08-03 15:36:39.414 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "841"
+
+2024-08-03 15:36:41.165 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "843"
+
+2024-08-03 15:36:43.347 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "845"
+
+2024-08-03 16:00:55.149 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "855"
+
+2024-08-03 16:01:15.168 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "867"
+
+2024-08-03 16:06:07.635 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "964"
+
+2024-08-03 16:06:07.635 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "963"
+
+2024-08-03 16:18:54.181 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1081"
+
+2024-08-03 16:19:04.504 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1090"
+
+2024-08-03 16:19:11.222 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1103"
+
+2024-08-03 16:19:47.494 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1132"
+
+2024-08-03 16:19:50.646 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1148"
+
+2024-08-03 18:14:05.199 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1169"
+
+2024-08-03 18:21:43.602 [info] ERROR:pygls.protocol:Failed to handle request 1209 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///root/API/main.py'), position=15:20, work_done_token=None)
+Traceback (most recent call last):
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in hover
+    hover_text = jedi_utils.hover_text(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 660, in hover_text
+    if _hover_ignore(name, initialization_options):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 640, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+                                       ^^^^^^^^
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+
+2024-08-03 18:21:43.642 [info] [Error - 6:21:43 PM] Request textDocument/hover failed.
+2024-08-03 18:21:43.642 [info]   Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32602 
+{'traceback': ['  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in hover\n    hover_text = jedi_utils.hover_text(\n                 ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 660, in hover_text\n    if _hover_ignore(name, initialization_options):\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 640, in _hover_ignore\n    ignore_type: HoverDisableOptions = getattr(\n                                       ^^^^^^^^\n']}
+2024-08-03 19:00:30.774 [info] ERROR:pygls.protocol:Failed to handle request 1216 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///root/API/main.py'), position=13:13, work_done_token=None)
+Traceback (most recent call last):
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in hover
+    hover_text = jedi_utils.hover_text(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 660, in hover_text
+    if _hover_ignore(name, initialization_options):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 640, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+                                       ^^^^^^^^
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+
+2024-08-03 19:00:30.775 [info] [Error - 7:00:30 PM] Request textDocument/hover failed.
+2024-08-03 19:00:30.775 [info]   Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32602 
+{'traceback': ['  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in hover\n    hover_text = jedi_utils.hover_text(\n                 ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 660, in hover_text\n    if _hover_ignore(name, initialization_options):\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 640, in _hover_ignore\n    ignore_type: HoverDisableOptions = getattr(\n                                       ^^^^^^^^\n']}
+2024-08-03 19:00:46.301 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1222"
+
+2024-08-03 19:19:20.239 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1248"
+
+2024-08-03 19:19:23.286 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1251"
+
+2024-08-03 19:19:39.674 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1273"
+
+2024-08-03 19:19:48.288 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1278"
+

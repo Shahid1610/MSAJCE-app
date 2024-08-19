@@ -1,0 +1,44 @@
+2024-08-03 13:50:28.471 [info] Extension host with pid 62569 started
+2024-08-03 13:50:28.471 [error] Error: EEXIST: file already exists, open '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock'
+2024-08-03 13:50:28.540 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-08-03 13:50:28.553 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock': The lock does not look stale, elapsed: 568 ms, giving up.
+2024-08-03 13:50:28.561 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff-1/vscode.lock': Lock acquired.
+2024-08-03 13:50:29.107 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-03 13:50:29.652 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-03 13:50:30.176 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-03 13:50:30.177 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-03 13:50:30.787 [info] Eager extensions activated
+2024-08-03 13:50:30.787 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-03 13:50:30.787 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-03 13:51:23.775 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-08-03 15:19:01.007 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: mikoz.black-py
+2024-08-03 15:19:01.848 [error] Error: spawn /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-03 15:19:02.409 [info] ExtensionService#_doActivateExtension mikoz.black-py, startup: false, activationEvent: 'onLanguage:python'
+2024-08-03 15:19:02.409 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-08-03 18:21:43.642 [error] [ms-python.python] provider FAILED
+2024-08-03 18:21:43.642 [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+	at ae (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:1968174)
+	at oe (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:1966134)
+	at Immediate.<anonymous> (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:1962428)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-08-03 19:00:30.776 [error] [ms-python.python] provider FAILED
+2024-08-03 19:00:30.776 [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+	at ae (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:1968174)
+	at oe (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:1966134)
+	at Immediate.<anonymous> (/root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/out/client/extension.js:2:1962428)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-08-03 19:27:15.020 [info] Extension host terminating: received terminate message from renderer
+2024-08-03 19:27:15.022 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-03 19:27:15.053 [error] Canceled: Canceled
+	at new P (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:143:50586)
+	at y.U (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:150:5970)
+	at M.<computed>.N.charCodeAt.T.CharCode.DollarSign.M.<computed> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:150:3060)
+	at L.showMessage (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:145:6795)
+	at Object.showErrorMessage (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:163:33358)
+	at EasyCommandDispatcher.<anonymous> (/root/.local/share/code-server/extensions/mikoz.black-py-1.0.3-universal/node_modules/vscode-python-extension-core/lib/commandDispatcher/basicCommandDispatcher.js:91:37)
+	at Generator.throw (<anonymous>)
+	at rejected (/root/.local/share/code-server/extensions/mikoz.black-py-1.0.3-universal/node_modules/vscode-python-extension-core/lib/commandDispatcher/basicCommandDispatcher.js:29:65) black-py.run {"value":"mikoz.black-py","_lower":"mikoz.black-py"}
+2024-08-03 19:27:15.056 [info] Extension host with pid 62569 exiting with code 0

@@ -1,0 +1,32 @@
+2024-08-03 09:16:33.554 [info] Expanding terminal instance, old id 3b96f0ff-2 -> new id undefined
+2024-08-03 09:16:40.060 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-08-03 09:16:40.060 [info] Persistent process reconnection "2"
+2024-08-03 09:16:40.557 [info] Persistent process "2": Replaying 27 chars and 1 size events
+2024-08-03 12:15:24.576 [info] Expanding terminal instance, old id 3b96f0ff-2 -> new id undefined
+2024-08-03 12:15:24.576 [info] Expanding terminal instance, old id 3b96f0ff-3 -> new id undefined
+2024-08-03 12:15:33.841 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-08-03 12:15:33.841 [info] Persistent process reconnection "2"
+2024-08-03 12:15:33.842 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2024-08-03 12:15:33.842 [info] Persistent process reconnection "3"
+2024-08-03 12:15:34.147 [info] Persistent process "2": Replaying 5873 chars and 1 size events
+2024-08-03 12:15:34.150 [info] Persistent process "3": Replaying 27 chars and 1 size events
+2024-08-03 13:51:23.333 [info] Expanding terminal instance, old id 3b96f0ff-2 -> new id undefined
+2024-08-03 13:51:23.333 [info] Expanding terminal instance, old id 3b96f0ff-3 -> new id undefined
+2024-08-03 13:51:23.333 [info] Expanding terminal instance, old id 3b96f0ff-4 -> new id undefined
+2024-08-03 13:51:29.981 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-08-03 13:51:29.981 [info] Persistent process reconnection "2"
+2024-08-03 13:51:29.982 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2024-08-03 13:51:29.982 [warning] Persistent process "4": Process had no disconnect runners but was an orphan
+2024-08-03 13:51:29.982 [info] Persistent process reconnection "3"
+2024-08-03 13:51:29.982 [info] Persistent process reconnection "4"
+2024-08-03 13:51:30.580 [info] Persistent process "2": Replaying 6656 chars and 1 size events
+2024-08-03 13:51:30.582 [info] Persistent process "3": Replaying 27 chars and 1 size events
+2024-08-03 13:51:30.582 [info] Persistent process "4": Replaying 27 chars and 1 size events
+2024-08-08 11:32:48.875 [info] Expanding terminal instance, old id 3b96f0ff-2 -> new id undefined
+2024-08-08 11:32:48.875 [info] Expanding terminal instance, old id 3b96f0ff-5 -> new id undefined
+2024-08-08 11:33:00.045 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-08-08 11:33:00.046 [info] Persistent process reconnection "2"
+2024-08-08 11:33:00.046 [warning] Persistent process "5": Process had no disconnect runners but was an orphan
+2024-08-08 11:33:00.046 [info] Persistent process reconnection "5"
+2024-08-08 11:33:00.571 [info] Persistent process "2": Replaying 9240 chars and 1 size events
+2024-08-08 11:33:00.571 [info] Persistent process "5": Replaying 27 chars and 1 size events

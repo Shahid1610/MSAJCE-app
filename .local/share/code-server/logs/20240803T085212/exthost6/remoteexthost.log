@@ -1,0 +1,19 @@
+2024-08-08 11:32:56.745 [info] Extension host with pid 134425 started
+2024-08-08 11:32:56.753 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock': Lock acquired.
+2024-08-08 11:32:57.346 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-08 11:32:57.842 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: mikoz.black-py
+2024-08-08 11:32:57.844 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-08 11:33:00.560 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-08 11:33:00.560 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-08 11:33:01.254 [error] Error: spawn /root/.local/share/code-server/extensions/ms-python.python-2024.12.1-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-08 11:33:01.742 [info] ExtensionService#_doActivateExtension mikoz.black-py, startup: false, activationEvent: 'onLanguage:python'
+2024-08-08 11:33:01.744 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-08-08 11:33:02.341 [info] Eager extensions activated
+2024-08-08 11:33:02.341 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 11:33:02.342 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 11:33:12.617 [info] Extension host terminating: received terminate message from renderer
+2024-08-08 11:33:12.618 [info] Lock '/root/.local/share/code-server/User/workspaceStorage/3b96f0ff/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-08 11:33:12.652 [info] Extension host with pid 134425 exiting with code 0
